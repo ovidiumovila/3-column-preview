@@ -1,0 +1,25 @@
+<div class="columns">
+    <section class="sedan">
+        <img src="assets/images/icon-sedans.svg" alt="sedan">
+        <h1><u>SEDANS</u></h1>
+        <p>Choose a <b>SEDAN</b> for its affordability and excellent fuel economy.</p> <p>Ideal for cruising in the city or on your
+            next road trip.</p>
+        <button routerLink="sedan" class="buttonsedan">Learn More</button>
+    </section>
+
+    <section class="suvs">
+        <img src="assets/images/icon-suvs.svg" alt="suvs">
+        <h1><u>SUVS</u></h1>
+        <p>Take an <b>SUV</b> for its spacious interior, power, and versatility.</p> <p>Perfect for your next family vacation and
+            off-road adventures.</p>
+        <button (click)="switchToSuv()" class="buttonsuv">Learn More</button>
+    </section>
+
+    <section class="luxury">
+        <img src="assets/images/icon-luxury.svg" alt="luxury">
+        <h1><u>LUXURY</u></h1>
+        <p>Cruise in the best car brands without the bloated prices.</p> <p>Enjoy the enhanced comfort of a <b>LUXURY</b>
+            rental and arrive in style.</p>
+        <button (click)="switchToLuxury()" class="buttonluxury">Learn More</button>
+    </section>
+</div>
